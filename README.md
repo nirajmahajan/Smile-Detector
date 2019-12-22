@@ -15,7 +15,7 @@ The code structure for all the models is quite similar. Each model has the follo
 
 ## Model:
 
-## ![](/home/legolas/Github/Smile-Detector/model/trained_model.png)
+## ![](https://github.com/nirajmahajan/Smile-Detector/blob/master/model/trained_model.png)
 
 ## Usage of Code:
 
