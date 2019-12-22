@@ -13,6 +13,10 @@ The code structure for all the models is quite similar. Each model has the follo
 - **data/** : Has the dataset in the .h5 format
 - **samples/** : Contain a few sample testcases
 
+## Model:
+
+## ![](/home/legolas/Github/Smile-Detector/model/trained_model.png)
+
 ## Usage of Code:
 
 1. To train the model:
