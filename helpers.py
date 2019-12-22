@@ -4,7 +4,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="-1"
 import numpy as np
 from keras.layers import Input, Dense, Activation, ZeroPadding2D, BatchNormalization, Flatten, Conv2D
 from keras.layers import MaxPooling2D
-from keras.models import Model
+from keras.models import Model, load_model
 import h5py
 import argparse
 import matplotlib.pyplot as plt
