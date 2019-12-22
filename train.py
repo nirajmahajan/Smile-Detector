@@ -20,5 +20,6 @@ if(not args.use_trained_model):
 else:
 	myModel = load_model('model/trained_model.h5')
 	preds = myModel.evaluate(test_x, test_y, batch_size=32, verbose=1, sample_weight=None)
-	print("\nLoss = {}".format(preds[0]))
+	preds1 = myModel.evaluate(train_x, train_y, batch_size=16, verbose=1, sample_weight=None)
+	print("\nTrain Accuracy = {}".format(preds1[1]))
 	print("Test Accuracy = {}".format(preds[1]))
